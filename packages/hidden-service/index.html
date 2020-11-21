@@ -1,0 +1,35 @@
+
+<h4>Default</h4>
+<pre>
+
+http://address.onion/
+
+will be redirected to:
+
+http://${address}.onion/.well-known/did.json
+
+</pre>
+
+
+<h4>Client Side Resolution</h4>
+
+<pre>
+http://address.onion/#did:onion:address2
+
+will be redirected to:
+
+http://${address2}.onion/.well-known/did.json
+
+</pre>
+
+<script>
+    if (window.location.hash.indexOf('#did:onion:') === 0){
+        let address = window.location.hash.split(':')[2];
+        alert(`Redirecting to did:onion:${address}`);
+        window.location.href=`http://${address}.onion/.well-known/did.json`;
+    } else {
+        let address =  window.location.hostname.split('.onion')[0]
+        alert(`Redirecting to did:onion:${address}`);
+        window.location.href=`http://${address}.onion/.well-known/did.json`;
+    }
+</script>
