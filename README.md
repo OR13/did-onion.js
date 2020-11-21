@@ -1,3 +1,7 @@
+# did-onion.js
+
+A javascript and docker implementation of [did:onion](https://blockchaincommons.github.io/did-method-onion/).
+
 #### Getting Started
 
 ```
