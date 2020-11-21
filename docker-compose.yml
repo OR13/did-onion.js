@@ -4,12 +4,12 @@ services:
   tor:
     image: goldy/tor-hidden-service:0.3.5.8
     links:
-      - hello
+      - did_onion
     env_file:
       - ./keys/.env
 
-  hello:
+  did_onion:
     build:
       context: ./packages/hidden-service
       dockerfile: Dockerfile
-    hostname: hello
+    hostname: did_onion

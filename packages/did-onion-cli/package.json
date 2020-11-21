@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gen": "node generate.js"
+    "generate-did": "node generate.js"
   },
   "author": "Orie Steele",
   "license": "ISC",

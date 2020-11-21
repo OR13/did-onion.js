@@ -1,6 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "generate": "./generate.sh && lerna run generate-did",
+    "start": "docker-compose up --build"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }

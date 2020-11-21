@@ -13,7 +13,7 @@ const YAML = require('yaml');
     const did = `did:onion:${parsedService.hostname.split('.onion')[0]}`
     const envFile = `
 SERVICE1_TOR_SERVICE_VERSION="3"
-SERVICE1_TOR_SERVICE_HOSTS="80:hello:80"
+SERVICE1_TOR_SERVICE_HOSTS="80:did_onion:80"
 SERVICE1_TOR_SERVICE_KEY="${parsedService.hs_ed25519_secret_key}"
 `
 fs.writeFileSync(path.resolve(__dirname, '../../keys/.env'), envFile);
@@ -40,6 +40,6 @@ fs.writeFileSync(path.resolve(__dirname, '../../keys/.env'), envFile);
     didDocument.verificationMethod[0].controller = did;
     didDocument.verificationMethod[1].controller = did;
     fs.writeFileSync(path.resolve(__dirname, '../../keys/did.json'), JSON.stringify(didKeys, null, 2));
-    fs.writeFileSync(path.resolve(__dirname, '../../hidden-service/.well-known/did.json'), JSON.stringify(didDocument, null, 2))
+    fs.writeFileSync(path.resolve(__dirname, '../hidden-service/.well-known/did.json'), JSON.stringify(didDocument, null, 2))
 
 })()
