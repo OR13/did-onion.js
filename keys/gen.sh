@@ -1,0 +1,1 @@
+mkp224o lol -y -n 1 > /keys/hidden-service.yaml

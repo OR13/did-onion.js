@@ -1,0 +1,34 @@
+{
+  "ed25519": {
+    "id": "#z6MkvvyUD8GP9dxpsVYLxw3aADDNm633Ho5TDCo5wZ2qy6U2",
+    "type": "JsonWebKey2020",
+    "controller": "did:onion:lolgtlmta5rkdmrfbdjsd4uvqmmcv6rtkrzogppsirdgwbsl4ii4ygad",
+    "publicKeyJwk": {
+      "crv": "Ed25519",
+      "x": "9NSC7n5Ab-likviWvzs4ZAPr_YuxAlUVd9IzeUetZDM",
+      "kty": "OKP"
+    },
+    "privateKeyJwk": {
+      "crv": "Ed25519",
+      "d": "chQ22-hRnJk3GyiZVtNOvo4d11DZ03u7KZrCcl_vPII",
+      "x": "9NSC7n5Ab-likviWvzs4ZAPr_YuxAlUVd9IzeUetZDM",
+      "kty": "OKP"
+    }
+  },
+  "x25519": {
+    "id": "#z6LSd78ZuFyPbkp1WVT7crkTed9iAWy9YHRFLeDjSQc1dD3d",
+    "type": "JsonWebKey2020",
+    "controller": "did:onion:lolgtlmta5rkdmrfbdjsd4uvqmmcv6rtkrzogppsirdgwbsl4ii4ygad",
+    "publicKeyJwk": {
+      "kty": "OKP",
+      "crv": "X25519",
+      "x": "FUBFU1lk-cRzZUsK4TVjLYdiIrFz0u4qjOEG_cxsZQg"
+    },
+    "privateKeyJwk": {
+      "kty": "OKP",
+      "crv": "X25519",
+      "d": "-Byi9Dy0qusiaTy2I9tLp9xBvSX0aTmBYzLJIgCu03U",
+      "x": "FUBFU1lk-cRzZUsK4TVjLYdiIrFz0u4qjOEG_cxsZQg"
+    }
+  }
+}

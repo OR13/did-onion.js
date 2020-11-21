@@ -1,0 +1,1 @@
+docker run -it -v $(pwd)/keys:/keys nwtgck/mkp224o /bin/bash /keys/gen.sh

@@ -1,0 +1,11 @@
+{
+  "name": "did-onion-hidden-service-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Orie Steele",
+  "license": "ISC"
+}

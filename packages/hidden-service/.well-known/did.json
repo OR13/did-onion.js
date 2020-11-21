@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:onion:lolgtlmta5rkdmrfbdjsd4uvqmmcv6rtkrzogppsirdgwbsl4ii4ygad"
+    }
+  ],
+  "id": "did:onion:lolgtlmta5rkdmrfbdjsd4uvqmmcv6rtkrzogppsirdgwbsl4ii4ygad",
+  "verificationMethod": [
+    {
+      "id": "#z6MkvvyUD8GP9dxpsVYLxw3aADDNm633Ho5TDCo5wZ2qy6U2",
+      "type": "JsonWebKey2020",
+      "controller": "did:onion:lolgtlmta5rkdmrfbdjsd4uvqmmcv6rtkrzogppsirdgwbsl4ii4ygad",
+      "publicKeyJwk": {
+        "crv": "Ed25519",
+        "x": "9NSC7n5Ab-likviWvzs4ZAPr_YuxAlUVd9IzeUetZDM",
+        "kty": "OKP"
+      }
+    },
+    {
+      "id": "#z6LSd78ZuFyPbkp1WVT7crkTed9iAWy9YHRFLeDjSQc1dD3d",
+      "type": "JsonWebKey2020",
+      "controller": "did:onion:lolgtlmta5rkdmrfbdjsd4uvqmmcv6rtkrzogppsirdgwbsl4ii4ygad",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "X25519",
+        "x": "FUBFU1lk-cRzZUsK4TVjLYdiIrFz0u4qjOEG_cxsZQg"
+      }
+    }
+  ],
+  "authentication": [
+    "#z6MkvvyUD8GP9dxpsVYLxw3aADDNm633Ho5TDCo5wZ2qy6U2"
+  ],
+  "assertionMethod": [
+    "#z6MkvvyUD8GP9dxpsVYLxw3aADDNm633Ho5TDCo5wZ2qy6U2"
+  ],
+  "capabilityInvocation": [
+    "#z6MkvvyUD8GP9dxpsVYLxw3aADDNm633Ho5TDCo5wZ2qy6U2"
+  ],
+  "capabilityDelegation": [
+    "#z6MkvvyUD8GP9dxpsVYLxw3aADDNm633Ho5TDCo5wZ2qy6U2"
+  ],
+  "keyAgreement": [
+    "#z6LSd78ZuFyPbkp1WVT7crkTed9iAWy9YHRFLeDjSQc1dD3d"
+  ]
+}
